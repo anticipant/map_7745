@@ -1,35 +1,39 @@
+body {
+  width: 950px;
+  margin: 10px auto;
+}
 .wrapper {
- display: flex;
- width: 400px;
- /*  padding: 5px;*/
- /*  margin: 10px auto;*/
- box-sizing: border-box;
+  display: flex;
+  width: 400px;
+  /*  padding: 5px;*/
+  /*  margin: 10px auto;*/
+  box-sizing: border-box;
 
- font-size: 0;
+  font-size: 0;
 
- /*  border: 1px solid grey;*/
+  /*  border: 1px solid grey;*/
 }
 .contact {
- width: 55%; 
- box-sizing: border-box;
+  width: 55%; 
+  box-sizing: border-box;
 
- font-size: 13px;
+  font-size: 13px;
 }
 .contact_line {
- padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 .contact_title-line {
- font-weight: 600;
- padding-bottom: 2px
+  font-weight: 600;
+  padding-bottom: 2px
 }
 .qr-code {
- display: flex;
- justify-content: center;
- align-items: center;
- width: 45%;
- box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  box-sizing: border-box;
 }
 .qrcode_image {
- width: 150px;
- height: 150px;
+  width: 150px;
+  height: 150px;
 }
